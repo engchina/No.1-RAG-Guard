@@ -41,6 +41,8 @@ RAG-Guard 是一个专为检索增强生成（RAG）场景设计的安全防护�
 Windows PowerShell:
 ```powershell
 pip install -e .
+pip install -r requirements.txt
+# pip list --format=freeze > requirements.txt
 ```
 
 如果你使用 uv 进行依赖/环境管理，也可以：
@@ -52,6 +54,8 @@ uv venv
 Windows PowerShell:
 ```powershell
 uv pip install -e .
+uv pip install -r requirements.txt
+# uv pip list --format=freeze > requirements.txt
 ```
 
 快速开始
